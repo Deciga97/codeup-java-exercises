@@ -6,5 +6,11 @@ public class ControlFlowExercises {
             i++;
         }
 
+        int x = 0;
+        do{
+            x += 2;
+            System.out.println(x);
+        } while(x <= 100);
+
     }
 }
