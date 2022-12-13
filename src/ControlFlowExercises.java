@@ -12,6 +12,11 @@ public class ControlFlowExercises {
             System.out.println(x);
         } while(x >= -10);
 
+        for (int x = 100; x >= -10; x -= 5) {
+            System.out.println(x);
+        }
+
+
         int number = 2;
         do {
             // Display the number squared on each line
@@ -19,6 +24,13 @@ public class ControlFlowExercises {
             // Increment the number by 1
             number++;
         } while (number < 66000);
+
+        //Refactor to For Loop //
+        for (int number = 2; number < 1000000; number++) {
+            // Display the number squared on each line
+            System.out.println(number * number);
+        }
+
 
 
     }
