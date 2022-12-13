@@ -4,8 +4,10 @@ public class ConsoleExercises {
     public static void main(String[] args) {
 
         // PI //
-        double pi = 3.1415926535; // define the value of pi
+        double pi = 3.14159; // define the value of pi
         System.out.printf("The value of pi is approximately %.2f. %n", pi); // print the value of pi with 2 decimal places
+
+        // Scanner //
 
         Scanner scanner = new Scanner(System.in); // create a new Scanner object
 
@@ -65,7 +67,6 @@ public class ConsoleExercises {
                 System.out.println("The perimeter of the classroom is " + perimeter);
             }
         }
-
 
     }
 
