@@ -6,6 +6,13 @@ public class StringExercise {
         String message ="Check \"this\" out!, \"s inside of \"s!";
         System.out.println(message);
 
+        String windows = "In windows, the main drive is usually C:\\";
+        System.out.println(windows);
+
+        String message2 = "I can do backslashes \\, double backslashes \\\\,\n" +
+                "and the amazing triple backslash \\\\\\!";
+        System.out.println(message2);
+
 
 
 
