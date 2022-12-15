@@ -18,3 +18,13 @@ public class bob {
 
     }
 }
+
+// // Use a while loop to keep the code running until the user decides to quit
+//        while (true) {
+//            System.out.print("Hi, I'm Bob. Ask me a question: ");
+//            String userInput = bob.next();
+//
+//            // Check if the user has entered the keyword to quit
+//            if (userInput.equalsIgnoreCase("quit") || userInput.equalsIgnoreCase("exit")) {
+//                // If the user has entered the keyword, break out of the loop
+//                break;
