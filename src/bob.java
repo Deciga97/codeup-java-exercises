@@ -19,6 +19,9 @@ public class bob {
     }
 }
 
+
+// Code used to keep the program running //
+
 // // Use a while loop to keep the code running until the user decides to quit
 //        while (true) {
 //            System.out.print("Hi, I'm Bob. Ask me a question: ");
