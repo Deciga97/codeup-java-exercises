@@ -1,9 +1,14 @@
+import java.util.Scanner;
 public class MethodsExercise {
     public static void main(String[] args) {
         System.out.println(addition(1, 2));
         System.out.println(subtraction(1, 2));
         System.out.println(multiplication(1, 2));
         System.out.println(division(1, 2));
+
+        System.out.print("Enter a number between 1 and 10: ");
+        int userInput = getInteger(1, 10);
+
 
 
 
@@ -29,6 +34,26 @@ public class MethodsExercise {
         return x / y;
     }
 
-}
+    // Modulus Method //
+    public static int modulus(int x, int y) {
+        return x % y;
+    }
+
+    public static int getInteger(int min, int max) {
+        Scanner sc = new Scanner(System.in);
+        int userInput;
+        userInput = sc.nextInt();
+            if (userInput >= min && userInput <= max) {
+                System.out.println("Your input is within range.");
+                return userInput;
+            } else {
+                System.out.println("Your input is out of range.");
+                return getInteger(min, max);
+            }
+        }
+    }
+
+
+
 
 
