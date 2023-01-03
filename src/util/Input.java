@@ -19,6 +19,9 @@ public class Input {
     public static getInt(int min, int max) {
         System.out.printf("Enter a number between %d and %d", min, max);
         int userNumber = scanner.nextInt();
+        if(userNumber < min || userNumber > max) {
+            getInt(min, max);
+        }
     }
 
 
