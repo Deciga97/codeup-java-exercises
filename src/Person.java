@@ -9,6 +9,7 @@ public class Person {
 
         public String getName(){
                 this.name = name;
+                return null;
         }
 
         public void setName(String name){

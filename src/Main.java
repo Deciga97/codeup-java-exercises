@@ -1,16 +1,16 @@
 // Java Class //
-public class Main {
-    //    Java Method //
-    public static void main(String[] args) {
-        // console.log //
-        System.out.println("Hello World!");
-        // Main Method Shortcut //
-        // Main Method Shortcut //
-        // Main(tah) //
-        // psvm (tab/enter) //
-    }
-
-//    // Second Exercise //
+//public class Main {
+//    //    Java Method //
+//    public static void main(String[] args) {
+//        // console.log //
+//        System.out.println("Hello World!");
+//        // Main Method Shortcut //
+//        // Main Method Shortcut //
+//        // Main(tah) //
+//        // psvm (tab/enter) //
+//    }
+//
+////    // Second Exercise //
 //    int myFavoriteNumber = 18;
 //    String myString = "Good Morning";
 //    System.out.println(myString)
@@ -23,7 +23,7 @@ public class Main {
 //    //error: Might not have been initialized.
 //    long myNumber = 123L;
 //
-}
+
 //
 //
 //
