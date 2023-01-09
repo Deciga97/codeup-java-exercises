@@ -45,7 +45,7 @@ public class MoviesApplication {
 
         // FIX THIS BELOW //
 
-        String category = Input.getString();
+//        String category = Input.getString();
 
         Movie[] movies = MoviesArray.findAll();
         for (Movie movie : movies) {
