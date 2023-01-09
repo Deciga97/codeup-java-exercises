@@ -1,7 +1,7 @@
-public class Person {
+public class ArraysExercise {
     private String name;
 
-    public Person(String name) {
+    public void Person(String name) {
         this.name = name;
     }
 
