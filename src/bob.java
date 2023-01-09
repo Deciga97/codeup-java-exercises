@@ -6,7 +6,7 @@ class Bob {
         String input;
 
         while (true) {
-            System.out.print("You: ");
+            System.out.print("Ask Bob a question: ");
             input = scanner.nextLine().trim();
 
             if (input.isEmpty()) {
