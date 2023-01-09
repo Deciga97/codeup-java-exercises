@@ -18,7 +18,7 @@ public class Input {
         return input.equalsIgnoreCase("y") || input.equalsIgnoreCase("yes");
     }
 
-    public int getInt(int min, int max) {
+    public static int getInt(int min, int max) {
         int input = this.getInt();
         if (input < min || input > max) {
             System.out.println("Input must be between " + min + " and " + max);
